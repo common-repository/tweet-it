@@ -1,0 +1,16 @@
+.tweetit {
+	background: #4099FF;
+	color: white !important;
+}
+
+.tweet-bird {
+	width: 14px;
+	height: 11px;
+	background-image: url('bird_grey.png');
+	display: inline-block;
+}
+
+.tweetit:hover .tweet-bird {
+	background-image: url('bird_blue.png');
+	transition: all 0.5s ease-in;
+}
